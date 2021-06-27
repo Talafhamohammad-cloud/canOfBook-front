@@ -1,0 +1,7 @@
+a {
+    color: rgb(88, 0, 0);
+}
+
+a:hover {
+    color: rgb(6, 38, 85);
+}
