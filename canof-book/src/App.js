@@ -24,14 +24,12 @@ class App extends React.Component {
             <Header />
             <Switch>
               <Route exact path="/">
-                {/* TODO: if the user is logged in, render the `MyFavoriteBooks` component, if they are not, render the `Login` component */}
                
                 {
                   isAuthenticated ? < MyFavoriteBooks / > : < Login / >
                 }
 
               </Route>
-              {/* TODO: add a route with a path of '/profile' that renders a `Profile` component */}
               {isAuthenticated && <Profile />}
             </Switch>
             <Footer />
